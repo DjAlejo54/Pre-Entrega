@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pumper Nic</title>
+    <link rel="icon" href="Logos/Logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>Pumper Nic</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Menú</a></li>
+                <li><a href="#reseñas">Opiniones</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="inicio">
+        <section class="hero">
+            <h2>El sabor que volvió</h2>
+            <p>Después de décadas, Pumper Nic regresa con el mismo espíritu argentino y el sabor que nunca se olvidó.</p>
+            <img src="Logos/PumperNic.jpg" alt="Logo de Pumper Nic">
+        </section>
+
+        <section id="productos">
+            <h2>Menú Clásico</h2>
+            <div class="productos-container">
+                <article class="card">
+                    <img src="Logos/Clasica.png" alt="Pumper Burger">
+                    <h3>Pumper Burger</h3>
+                    <p>La hamburguesa original que marcó una época. Pan suave, carne jugosa y ese aderezo único.</p>
+                </article>
+
+                <article class="card">
+                    <img src="Logos/Combo.png" alt="Combo Clásico">
+                    <h3>Combo Clásico</h3>
+                    <p>Pumper Burger + Papas + Gaseosa. Una experiencia completa como en los viejos tiempos.</p>
+                </article>
+
+                <article class="card">
+                    <img src="Logos/Mega.png" alt="Mega Pumper">
+                    <h3>Mega Pumper</h3>
+                    <p>Dos medallones, doble queso y toda la nostalgia servida en un solo plato.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="reseñas">
+            <h2>Opiniones de Nuestros Clientes</h2>
+            <div class="grid-reseñas">
+                <div class="reseña">
+                    <p>⭐⭐⭐⭐⭐</p>
+                    <p>"Volví a probar la Pumper Burger y me transporté a los 80. ¡Gracias por volver!"</p>
+                    <span>- Marcelo, Buenos Aires</span>
+                </div>
+                <div class="reseña">
+                    <p>⭐⭐⭐⭐</p>
+                    <p>"El sabor es igual al de antes, pero con un toque moderno. Mis hijos lo aman."</p>
+                    <span>- Andrea, Rosario</span>
+                </div>
+                <div class="reseña">
+                    <p>⭐⭐⭐⭐⭐</p>
+                    <p>"Esto no es una hamburguesa, es una cápsula del tiempo."</p>
+                    <span>- Fede, Córdoba</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="multimedia">
+            <h2>Nuestra Historia</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/t2Xz05B9_Js?si=Se0r1JBFycBPmZD4" 
+                title="Historia de Pumper Nic" frameborder="0" allowfullscreen></iframe>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>¿Querés abrir tu propio local o dejarnos tu mensaje?</p>
+            <form action="https://formspree.io/f/myznvloj" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" required>
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" name="email" id="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea name="mensaje" id="mensaje" rows="5" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Pumper Nic | El sabor argentino de siempre 🍔</p>
+    </footer>
+
+</body>
+</html>
