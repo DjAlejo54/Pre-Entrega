@@ -7,6 +7,5 @@ Tengo que admitir que, para lo que son las opiniones de los clientes, las frases
 
 El resto del proyecto, como la estructura, estilos y organizacion, fue hecho por mi siguiendo las consignas del trabajo practico.
 
-Para el formulario de contacto utilice Formspree, un servicio gratuito que permite recibir los mensajes enviados desde el sitio web directamente por email.
-
 Por ultimo, pase el codigo completo a la IA unicamente para que corrigiera mis errores ortograficos y de redaccion, sin alterar la estructura ni el contenido principal.
+
